@@ -20,11 +20,11 @@ function guess() {
         showAnswer(true);
         showReplay();
     } else if(attempt.value >= 10) {
-        setMessage('You Lose');
+        setMessage('You Lose! :(');
         showAnswer(false);
         showReplay();
     } else {
-        setMessage('Incorrect, try again');
+        setMessage('Incorrect, try again.');
     }
 }
 
